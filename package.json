@@ -5,14 +5,14 @@
   "version": "0.1.0",
   "author": "Steven Meyer",
   "dependencies": {
-    "gatsby": "^2.3.25",
+    "gatsby": "^2.3.27",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.35",
-    "gatsby-plugin-typescript": "^2.0.12",
-    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-plugin-typescript": "^2.0.13",
+    "gatsby-source-filesystem": "^2.0.31",
     "gatsby-transformer-sharp": "^2.1.18",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -20,7 +20,7 @@
     "typescript": "^3.4.4"
   },
   "devDependencies": {
-    "@types/node": "^11.13.5",
+    "@types/node": "^11.13.7",
     "@types/react": "^16.8.13",
     "@types/react-dom": "^16.8.4",
     "@types/react-helmet": "^5.0.8",
