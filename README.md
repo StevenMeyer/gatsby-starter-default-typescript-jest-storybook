@@ -4,12 +4,12 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter, with TypeScript & Jest
+  Gatsby's default starter, with TypeScript, Jest & Storybook
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-This starter includes Jest for unit testing and Cypress for end-to-end (e2e) testing. You don't have to use Cypress; you could just ignore it.
+This starter includes Jest for unit testing, Cypress for end-to-end (e2e) testing and Storybook for visual testing. You don't have to use Cypress; you could just ignore it.
 
 If you just want the default starter with TypeScript, [I've written a starter for that](https://github.com/StevenMeyer/gatsby-starter-default-typescript).
 
@@ -23,7 +23,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter-ts-jest https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest
+    gatsby new my-default-starter-ts-test https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest-storybook
     ```
 
 1.  **Start developing.**
@@ -31,7 +31,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter-ts-jest/
+    cd my-default-starter-ts-test/
     gatsby develop
     ```
 
@@ -95,4 +95,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest-storybook)

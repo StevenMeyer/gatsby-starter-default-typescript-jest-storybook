@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-default-typescript-jest",
+  "name": "gatsby-starter-default-typescript-jest-storybook",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby, Typescript & Jest",
+  "description": "A simple starter to get up and developing quickly with Gatsby, Typescript, Jest & Storybook",
   "version": "0.1.0",
   "author": "Steven Meyer",
   "dependencies": {
@@ -38,7 +38,13 @@
     "react-testing-library": "^6.1.2",
     "start-server-and-test": "^1.9.0",
     "ts-jest": "^24.0.2",
-    "ts-lint": "^4.5.1"
+    "ts-lint": "^4.5.1",
+    "@storybook/react": "^5.0.10",
+    "@storybook/addon-actions": "^5.0.10",
+    "@storybook/addon-links": "^5.0.10",
+    "@storybook/addons": "^5.0.10",
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5"
   },
   "keywords": [
     "gatsby"
@@ -53,8 +59,11 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "jest",
+    "test:watch": "npm run test -- --watch",
     "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
-    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run"
+    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
