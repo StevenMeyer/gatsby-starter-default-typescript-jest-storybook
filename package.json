@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default-typescript",
+  "name": "gatsby-starter-default-typescript-jest",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby, Typescript & Jest",
   "version": "0.1.0",
@@ -58,10 +58,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/StevenMeyer/gatsby-starter-default-typescript"
+    "url": "https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest"
   },
   "bugs": {
-    "url": "https://github.com/StevenMeyer/gatsby-starter-default-typescript"
+    "url": "https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest"
   },
   "jest": {
     "transform": {

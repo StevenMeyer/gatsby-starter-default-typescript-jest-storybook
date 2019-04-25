@@ -4,10 +4,14 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter, with TypeScript
+  Gatsby's default starter, with TypeScript & Jest
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+
+This starter includes Jest for unit testing and Cypress for end-to-end (e2e) testing. You don't have to use Cypress; you could just ignore it.
+
+If you just want the default starter with TypeScript, [I've written a starter for that](https://github.com/StevenMeyer/gatsby-starter-default-typescript).
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
@@ -19,7 +23,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter-ts https://github.com/StevenMeyer/gatsby-starter-default-typescript
+    gatsby new my-default-starter-ts-jest https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest
     ```
 
 1.  **Start developing.**
@@ -27,7 +31,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter-ts/
+    cd my-default-starter-ts-jest/
     gatsby develop
     ```
 
@@ -91,4 +95,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/StevenMeyer/gatsby-starter-default-typescript-jest)
